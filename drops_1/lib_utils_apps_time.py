@@ -17,7 +17,7 @@ from sys import version_info
 from time import mktime
 from numpy import abs
 
-from src.common.default.lib_default_args import sTimeFormat as sTimeFormat_Default
+from lib_default_args import sTimeFormat as sTimeFormat_Default
 
 # Log
 log_stream = logging.getLogger(__name__)

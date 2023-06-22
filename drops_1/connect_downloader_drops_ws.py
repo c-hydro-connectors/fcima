@@ -27,6 +27,9 @@ iface eth0:drops inet static
 and write in command line:
     sudo ifdown eth0:drops
     sudo ifup eth0:drops
+    
+# libraries needed:
+pip install jpype1
 
 Version:
 20190918 (1.0.2) --> HyDE package refactoring

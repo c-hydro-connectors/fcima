@@ -2,18 +2,18 @@
   "data_info":{
     "domain": "Marche",
     "ws": {
-      "folder": "/home/fabio/Desktop/PyCharm_Workspace/hyde-ws/dynamic/source/ws/$yyyy/$mm/$dd/",
+      "folder": "/share/drought/DRYES/data/Test/input/weather_stations/$yyyy/$mm/$dd/",
       "file": "$VAR_$DOMAIN_$yyyy$mm$dd$HH$MM.csv",
       "update": true,
       "fields": ["longitude", "latitude", "data", "time_start", "time_end", "unit", "name", "altitude", "code"]
     },
     "log": {
-      "folder": "/home/fabio/Desktop/PyCharm_Workspace/hyde-ws/log/ws/",
-      "file": "fp_downloader_drops_ws_log.txt",
+      "folder": "/home/drought/DRYES/log/Test/",
+      "file": "connect_downloader_drops_weather_stations_log.txt",
       "format": "%(asctime)s %(name)-12s %(levelname)-8s %(filename)s:[%(lineno)-6s - %(funcName)20s()] %(message)s"
     },
     "land": {
-      "folder": "/home/fabio/Desktop/PyCharm_Workspace/hyde-ws/static/ws/gridded/",
+      "folder": "/home/drought/share/DRYES/data/Test/",
       "file": "marche.dem.txt"
     }
   },
@@ -73,7 +73,7 @@
     "time_frequency": "H"
   },
   "drops_info":{
-    "library_path" : "/home/fabio/Documents/Work_Area/Code_Development/Library/acrofour_merged/",
+    "library_path" : "/home/drought/DRYES/libraries/connectors/acrofour_merged/",
     "library_jvm": null,
     "library_source": "MERGED",
     "library_file": {
